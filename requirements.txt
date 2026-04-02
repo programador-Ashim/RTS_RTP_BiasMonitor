@@ -1,0 +1,10 @@
+streamlit>=1.30
+pandas
+numpy
+scikit-learn
+plotly
+joblib
+shap
+matplotlib
+streamlit-option-menu
+openpyxl
