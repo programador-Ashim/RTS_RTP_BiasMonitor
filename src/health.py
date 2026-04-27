@@ -3,11 +3,7 @@ import pandas as pd
 import numpy as np
 
 def dataset_health(df: pd.DataFrame, target: str | None = None) -> dict:
-    """Simple 'Data Health' score like a mini Biasense:
-    - missingness
-    - duplicate rate
-    - target balance (if provided)
-    """
+    
     n = len(df)
     if n == 0:
         return {"rows": 0, "missing_pct": 0.0, "dup_pct": 0.0, "target_pos_rate": None}

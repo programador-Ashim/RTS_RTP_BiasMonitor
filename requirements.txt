@@ -1,10 +1,11 @@
-streamlit>=1.30
+streamlit
 pandas
 numpy
-scikit-learn
 plotly
-joblib
-shap
-matplotlib
-streamlit-option-menu
+scikit-learn
+imbalanced-learn
 openpyxl
+xlrd
+matplotlib
+shap
+streamlit-option-menu
